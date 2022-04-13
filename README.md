@@ -1,49 +1,4 @@
-# Cartology Analytics Engineer - technical test #
-
-This README would normally document whatever steps are necessary to get your application up and running.
-
-## Data Modelling 
-
-### Business Background
-
-Company ABC has 1,000 stores across Australia selling approximately 100,000 different
-items (SKUs). Not all 100,000 items are available in all the stores. Each store maintains the
-list of items available in its store and has its own layout (aisle, bay) where the item is located.
-Each store can also override the price and discount independently of other stores which is
-called actual price. Each item also has some common attributes e.g. category, subcategory,
-brand etc. The team at ABC wants to track the item attributes (e.g. category, subcategory,
-location, price) at a particular point in time.
-
-The number of sales transaction records totals to 30 million to 40 million per day. The
-Analytics team at ABC are tasked to create the following reports refreshing daily.
-
-### Business Requirements
-
-* Get the item attributes per store at a particular point in time.
-* The total sales for time period: Month/Week/Day
-* The total sales by category/subcategory/item. Overlay the average actual price over the
-period for the same selection filters.
-* Drill into a particular Subcategory to get summary by stores and items (SKU)
-level
-
-### Functional Specs
-
-1. Extract sales record and convert into fact table
-2. Extract item attributes and convert into SCD-II dimension
-3. Extract store record and convert into fact table
-4. Add Date dimension for time period aggregate
-5. Generate fact sheet for reporting
-
-### Workflow Design
-
-![Work-Flow](Cartology-AE-Workflow.png)
-
-### ERD Design
-
-![ERD Diagram](Cartology-AE-BQ-ERD.png)
-
-
-## Programming 
+# MARS ROVERS
 
 ### Business Background
 
@@ -73,7 +28,10 @@ without moving from its current spot.
 ![Program Workflow](Cartology-AE-Program-Workflow.png)
 
 ### Source Code (Python)
-[Cartology-Programming-Rovers](./Cartology-Programming-Rovers.py)
+[Source Code](./Cartology-Programming-Rovers.py)
+
+### Output Demo
+![Rover Route Map](./rover_route_map_demo.png)
 
 ### Continues Improvement
 1. Change Arrow Symbol to Arrow line

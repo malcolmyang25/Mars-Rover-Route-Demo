@@ -25,10 +25,10 @@ without moving from its current spot.
 4. Start point includes  x and y co-ordinates and a letter representing one of the four cardinal compass points.
 
 ### Program Workflow
-![Program Workflow](Cartology-AE-Program-Workflow.png)
+![Program Workflow](./Program-Workflow.png)
 
 ### Source Code (Python)
-[Source Code](./Cartology-Programming-Rovers.py)
+[Source Code](./Programming-Rovers.py)
 
 ### Output Demo
 ![Rover Route Map](./rover_route_map_demo.png)
